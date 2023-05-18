@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <!-- styles -->
+     <link rel="stylesheet" href="index.css">
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="search" placeholder="search" class="search">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="">
+            <p class="error" >Invalid city name</p>
+        </div>
+
+        <div class="weather-container">
+            <div class="weather">
+                <img src="" alt="cloud"  class="weather-icon">
+                <h1 class="temp"></h1>
+                <h2 class="place"></h2>
+            </div>
+            <div class="weather-content">
+                <div class="weather-col">
+                    <img src="./cloud/humidity.png" alt="image">
+                    <div class="">
+                        <p >Humidity</p> 
+                        <p class="humidity"></p>  
+    
+                    </div>
+                   
+                </div>
+               
+                <div class="wind-col">
+                    <img src="./cloud/wind.png" class="clouds">
+                    <div class="div">
+                        <p>Wind Speed</p>
+                        <p  class="wind"></p>
+    
+                    </div>
+                 
+                </div>
+            </div>
+
+          </div>
+       
+    </div>
+    <!-- javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
